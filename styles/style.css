@@ -54,15 +54,22 @@ input{
 }
 .equal {
     background-color: rgba(248, 56, 171);
+    grid-column: span 2;
 }
 .value {
 font-size: 2rem
 }
-/* @media screen (min-width: 300px) {
-    .container {
+
+@media screen and (min-width: 720px) {
+    #calculator {
         width:100%;
-        margin:auto;
-    }body {
+        justify-content: space-around;
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr ;
+        height: 100%;
+        }
+    /* body {
         width:100%;
-    }
-}         */
+    } */
+}        
