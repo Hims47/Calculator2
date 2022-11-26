@@ -55,6 +55,9 @@ input{
 .equal {
     background-color: rgba(248, 56, 171);
 }
+.value {
+font-size: 2rem
+}
 @media screen (min-width: 300px;) {
     .container {
         width:100%;
